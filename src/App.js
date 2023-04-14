@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import "./Component/WebComponent1";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         >
           Learn React
         </a>
+        <web-greeting name = "Amit"></web-greeting>
       </header>
     </div>
   );
